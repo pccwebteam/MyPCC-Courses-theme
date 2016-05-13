@@ -32,7 +32,7 @@
 		#else
 			<link href="$themeDisplay.getPathThemeRoot()/css/email_style.css" rel="stylesheet" />
 		#end
-		<link href="$themeDisplay.getPathThemeRoot()/css/mypcc.css" rel="stylesheet" />
+		<link href="/pcc/styles/mypcc.css" rel="stylesheet" />
 	</head>
 	
 	#if($theme_settings.hide-chat-portlet == true)
@@ -132,5 +132,7 @@
 		
 		$theme.include($body_bottom_include)
 		$theme.include($bottom_include)
+		<script src="/pcc/scripts/jquery.tabs.js"></script>
+		<script src="/pcc/scripts/mypcc.js"></script>
 	</body>
 </html>
