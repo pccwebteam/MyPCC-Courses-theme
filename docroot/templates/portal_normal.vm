@@ -32,6 +32,7 @@
 		#else
 			<link href="$themeDisplay.getPathThemeRoot()/css/email_style.css" rel="stylesheet" />
 		#end
+		<link href="$themeDisplay.getPathThemeRoot()/css/mypcc.css" rel="stylesheet" />
 	</head>
 	
 	#if($theme_settings.hide-chat-portlet == true)
